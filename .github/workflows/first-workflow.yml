@@ -17,7 +17,7 @@ jobs:
     needs: job1
     steps:
       - name: Cowsays Action
-        uses: mscoutermarsh/cowsays-action@v1.0.0
+        uses: mscoutermarsh/cowsays-action@main
         with:
           text: "Ready for prod-shit it!"
           color: magenta
