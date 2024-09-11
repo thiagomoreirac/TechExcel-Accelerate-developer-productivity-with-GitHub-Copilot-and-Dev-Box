@@ -16,8 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: job1
     steps:
-      - name: Cowsay Action
-        uses: peter-evans/cowsay@v1
+      - name: Cowsays Action
+        uses: g-perry1/cowsays@v1.0.0
         with:
-          message: "Ready for prod-shit it!"
+          text: "Ready for prod-shit it!"
           color: magenta
